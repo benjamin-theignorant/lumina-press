@@ -8,7 +8,7 @@
   </head>
   <body>
     <div id="root"></div>
-    <!-- Pointing to app.jsx; Vite will compile this into a standard JS file -->
-    <script type="module" src="/app.jsx"></script>
+    <!-- Removed leading slash to ensure Vite finds the source during build -->
+    <script type="module" src="app.jsx"></script>
   </body>
 </html>
